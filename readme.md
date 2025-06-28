@@ -52,3 +52,7 @@ remigrate -> `diesel migration run`
 
 now go to user model file for store and try to put something in db
 then handle with models with various functions
+
+now move the logic to same db endpoint store,
+
+writing test, middlewares and jwt in rust

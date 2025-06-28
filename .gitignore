@@ -1,3 +1,4 @@
 /target
 api/.env
 store/.env
+.env

@@ -6,10 +6,10 @@ use routes::{
     website::{create_website, get_website},
 };
 use store::store::Store;
+pub mod auth_middleware;
 pub mod request_inputs;
 pub mod request_outputs;
 pub mod routes;
-
 #[tokio::main(flavor = "multi_thread")]
 //1. Creating the routes
 async fn main() -> Result<(), std::io::Error> {
