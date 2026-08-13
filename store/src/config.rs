@@ -1,8 +1,13 @@
+/// Application configuration loaded from environment variables.
+///
+/// Currently supports `DATABASE_URL` for PostgreSQL connectivity.
 use std::env;
 
 use dotenvy::dotenv;
 
+/// Configuration settings for the store layer.
 pub struct Config {
+    /// PostgreSQL connection URL.
     pub db_url: String,
 }
 

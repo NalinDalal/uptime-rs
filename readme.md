@@ -56,3 +56,5 @@ then handle with models with various functions
 now move the logic to same db endpoint store,
 
 writing test, middlewares and jwt in rust
+
+wrote the logic from [ts-code](github.com/nalindala/uptime-ts)
